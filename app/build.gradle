@@ -7,6 +7,9 @@ android {
     namespace 'com.example.androidtipcalculator'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.example.androidtipcalculator"
         minSdk 24
